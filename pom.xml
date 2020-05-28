@@ -24,6 +24,7 @@
             <version>4.3.26.RELEASE</version>
         </dependency>
 
+
         <!-- https://mvnrepository.com/artifact/org.apache.dubbo/dubbo -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
@@ -31,6 +32,19 @@
             <version>2.7.5</version>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.alibaba.spring</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-registry-nacos</artifactId>
+            <version>2.7.5</version>
+        </dependency>
 
     </dependencies>
 </project>
